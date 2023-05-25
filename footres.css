@@ -1,0 +1,863 @@
+@media (max-width: 1199.5px ){
+  /* custom css */
+  h1{
+      font-size: 3.75rem;
+  }
+}
+@media (max-width: 991px ){
+  /* 2 NAVBAR  */
+  .header label {
+    display: initial;
+  }
+
+  .header {
+    padding: 20px 10%;
+  }
+  
+
+  .logo {
+    font-size:20px;
+    text-transform: uppercase;
+    color:darkblue;
+    font-weight:700;
+  }
+
+  .header .navigation {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    /* background: var(--color-primary); */
+    background-color: lightblue;
+
+    display: none;
+  }
+
+  .header .navigation ul li {
+    width: 100%;
+    /* border-top: 1px solid var(--color-primary-light); */
+    border-top: 1px solid lightblue;
+  }
+
+  .header .navigation ul li a {
+    padding: 8px 30px 8px 10%;
+  }
+
+  .header .navigation ul li ul {
+    position: relative;
+    width: 100%;
+    left: 0;
+  }
+
+  .header .navigation ul li ul li {
+    /* background: lightblue; */
+    background-color: lightblue;
+  }
+
+  .header .navigation ul li ul li ul {
+    position: relative;
+    width: 100%;
+    left: 0;
+  }
+
+  .header .navigation ul li ul li span {
+    padding: 4px 10px;
+    font-size: 10px;
+  }
+
+
+  #toggle:checked ~ .navigation {
+    display: block;
+  }
+  .header img{
+    width:60px;
+    height:30px;
+  }
+
+  .header-scolled{
+      height: auto;
+  }
+  .header .navbar-nav{
+      text-align: center;
+      background-color: lightblue;
+      /* opacity: 0.9; */
+      padding-bottom: 0.9375rem;
+      border-radius: 1rem;
+      
+  }
+  .header .nav-item .nav-link{
+      margin-top: 0.9375rem;
+  }
+  .about .col img {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    margin-left:70px;
+    margin-right: 70px;
+  }
+  
+  .about .col img:hover {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .about .col p {
+    color: darkblue;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    text-align: justify;
+    align-items: center;
+    padding-right:5rem;
+    font-weight: 500;
+  
+  } 
+}
+@media (max-width: 767px ){
+  /* custom css */
+  .header label {
+    display: initial;
+  }
+
+  .about .img-fluid{
+    width: 600px;
+    height: 500px;
+  }
+  .hello{
+    min-height: 40vh;
+    background: linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)), url('surgery2.webp') no-repeat center center/cover;
+  }
+
+  #carouselExampleCaptions{
+    display: none;
+  }
+
+
+
+  /* .header {
+    padding: 20px 10%;
+  } */
+  
+
+  .logo {
+    font-size:20px;
+    text-transform: uppercase;
+    color:darkblue;
+    font-weight:700;
+  }
+
+  .header .navigation {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    /* background: var(--color-primary); */
+    background-color: lightblue;
+
+    display: none;
+  }
+
+  .header .navigation ul li {
+    width: 100%;
+    /* border-top: 1px solid var(--color-primary-light); */
+    border-top: 1px solid lightblue;
+  }
+
+  .header .navigation ul li a {
+    padding: 8px 30px 8px 10%;
+  }
+
+  .header .navigation ul li ul {
+    position: relative;
+    width: 100%;
+    left: 0;
+  }
+
+  .header .navigation ul li ul li {
+    /* background: lightblue; */
+    background-color: lightblue;
+  }
+
+  .header .navigation ul li ul li ul {
+    position: relative;
+    width: 100%;
+    left: 0;
+  }
+
+  .header .navigation ul li ul li span {
+    padding: 4px 10px;
+    font-size: 10px;
+  }
+
+
+  #toggle:checked ~ .navigation {
+    display: block;
+  }
+  .header img{
+    width:60px;
+    height:30px;
+  }
+
+  h1{
+      font-size: 2.5rem;
+      line-height: 3rem;
+  }
+  h2{
+      font-size: 1.875rem;
+      line-height: 2.187rem;
+  }
+  h3{
+      font-size: 1.875rem;
+  }
+  /* about */
+  /* .about .col img {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-left:50px;
+    margin-right: 70px;
+  }
+  
+  .about .col img:hover {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .about .col p {
+    color: darkblue;
+    font-size: 1rem;
+    line-height: 1.2;
+    text-align: justify;
+    align-items: center;
+    padding-right:5rem;
+    font-weight: 500;
+  
+  } */
+  .about .mission {
+    display: none;
+  }
+  .carousel {
+    padding-top: 0rem;
+  }
+  .carousel-caption h {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .slideshow-container {
+    max-width: 1500px;
+    position: relative;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  .carousel-item {
+    height:100vh;
+    min-height:100px;
+    background-color: transparent !important;
+  
+  }
+  
+  .carousel-item .blur img {
+    filter: blur(1000px);
+  }
+  
+  .carousel-caption {
+    bottom: 500px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 250px;
+    font-family: cursive;
+    margin-right:20px;
+  }
+  
+  .carousel-caption h4 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: right;
+    font-family: cursive;
+    margin-right:20px;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align:center;
+    margin-top:300px;
+    font-family: cursive;
+    color: white;
+  }
+  .carousel-caption h2 {
+    font-size:3rem;
+    text-transform: uppercase;
+    padding-left:250px;
+    font-family: cursive;
+    margin-right:10px;
+    text-align: justify;
+  }
+  .spic {
+    margin-top:100px;
+    text-align: center;
+  }
+  
+  .trdpic{
+    margin-top:100px; 
+    font-size:2rem; 
+    text-align: center;
+  }
+  .about {
+    padding-top: 0rem;
+  }
+  .contact .title1 {
+    color: darkblue;
+    font-size:3rem;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .contact .col .fas {
+    font-size: 2rem;
+    color: darkblue;
+    padding-left: 100px;
+  }
+  
+  .contact .col .fas:hover {
+    font-size:3rem;
+    color: darkblue;
+  }
+  
+  .contact .col .text {
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .contact .col .text1 {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    line-height: 1;
+  }
+  .social-links{
+    display: flex;
+    justify-content: center;
+  }
+  .social-links a{
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    color: darkblue;
+    border: 2px solid darkblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.4rem;
+    transition: all 0.4s ease;
+  }
+  .social-links .fab{
+    font-size: 2rem;
+  }
+  .social-links a:hover{
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+  
+  }
+  .foot .col {
+    font-size: 2rem;
+    color: darkblue;
+    font-weight: bold;
+  }
+  
+  .foot .col a {
+    font-size: 1.5rem;
+    color: #000;
+    text-decoration: none;
+    text-align: justify;
+    font-weight: 300;
+  }
+  
+  .foot .col a:hover {
+    font-size:1.5rem;
+    color: darkblue;
+    font-weight: 600;
+    border-bottom: 2px solid darkmagenta;
+  }
+  
+  .btn btn-outline-primary a {
+    margin: 1rem;
+  
+  }
+   }
+@media (max-width: 575.5px ){
+  /* custom css */
+  h1{
+      font-size: 3.75rem;
+  }
+
+  .about .img-fluid{
+    width: 600px;
+    height: 500px;
+  }
+
+.hello{
+  min-height: 40vh;
+  background: linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)), url('surgery2.webp') no-repeat center center/cover;
+}
+
+#carouselExampleCaptions{
+  display: none;
+}
+  /* .about .col img {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-left:50px;
+    margin-right: 70px;
+  }
+  
+  .about .col img:hover {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .about .col p {
+    color: darkblue;
+    font-size: 1rem;
+    line-height: 1.2;
+    text-align: justify;
+    align-items: center;
+    padding-right:5rem;
+    font-weight: 500;
+  
+  } */
+  .about .mission {
+    display: none;
+  }
+  .carousel-caption h {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .slideshow-container {
+    max-width: 1500px;
+    position: relative;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  .carousel-item {
+    height: 30vh;
+    min-height: 300px;
+    background-color: transparent !important;
+  
+  }
+  
+  .carousel-item .blur img {
+    filter: blur(1000px);
+  }
+  
+  .carousel-caption {
+    bottom: 500px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 250px;
+    font-family: cursive;
+    margin-right:20px;
+  }
+  
+  .carousel-caption h4 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: right;
+    font-family: cursive;
+    margin-right:20px;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align:center;
+    margin-top:300px;
+    font-family: cursive;
+    color: white;
+  }
+  .carousel-caption h2 {
+    font-size:3rem;
+    text-transform: uppercase;
+    padding-left:250px;
+    font-family: cursive;
+    margin-right:10px;
+    text-align: justify;
+  }
+  .spic {
+    margin-top:100px;
+    text-align: center;
+  }
+  
+  .trdpic{
+    margin-top:100px; 
+    font-size:2rem; 
+    text-align: center;
+  }
+  .header label {
+    display: initial;
+  }
+
+  /* .header {
+    padding: 20px 10%;
+  } */
+  
+  
+
+  .logo {
+    font-size:20px;
+    text-transform: uppercase;
+    color:darkblue;
+    font-weight:700;
+  }
+
+  .header .navigation {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    /* background: var(--color-primary); */
+    background-color: lightblue;
+
+    display: none;
+  }
+
+  .header .navigation ul li {
+    width: 100%;
+    /* border-top: 1px solid var(--color-primary-light); */
+    border-top: 1px solid lightblue;
+  }
+
+  .header .navigation ul li a {
+    padding: 8px 30px 8px 10%;
+  }
+
+  .header .navigation ul li ul {
+    position: relative;
+    width: 100%;
+    left: 0;
+  }
+
+  .header .navigation ul li ul li {
+    /* background: lightblue; */
+    background-color: lightblue;
+  }
+
+  .header .navigation ul li ul li ul {
+    position: relative;
+    width: 100%;
+    left: 0;
+  }
+
+  .header .navigation ul li ul li span {
+    padding: 4px 10px;
+    font-size: 10px;
+  }
+
+
+  #toggle:checked ~ .navigation {
+    display: block;
+  }
+  .header img{
+    width:60px;
+    height:30px;
+  }
+
+  .aboutus h1{
+    text-align: center;
+    font-size:30px;
+    color:darkblue;
+    font-style: italic;
+    }
+
+  .aboutus p{
+    text-align:justify;
+    font-size:18px;
+    color:black;
+    justify-content: center;
+    }
+     /* #carouselExampleCaptions {
+      min-height:60vh;
+      background: linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)), url('surgery2.webp') no-repeat center center/cover; 
+    }  */
+    .carousel-caption h {
+      color: white;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: center;
+    }
+    
+    .slideshow-container {
+      max-width: 1500px;
+      position: relative;
+    }
+    
+    .active {
+      background-color: #717171;
+    }
+    
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    .carousel-item {
+      height: 50vh;
+      min-height: 300px;
+      background-color: transparent !important;
+    
+    }
+    
+    .carousel-item .blur img {
+      filter: blur(1000px);
+    }
+    
+    .carousel-caption {
+      bottom: 500px;
+    }
+    
+    .carousel-caption h5 {
+      font-size: 4rem;
+      text-transform: uppercase;
+      text-align: right;
+      margin-top: 250px;
+      font-family: cursive;
+      margin-right:20px;
+    }
+    
+    .carousel-caption h4 {
+      font-size: 4rem;
+      text-transform: uppercase;
+      text-align: right;
+      font-family: cursive;
+      margin-right:20px;
+    }
+    
+    .carousel-caption h3 {
+      font-size: 3rem;
+      text-transform: uppercase;
+      text-align:center;
+      margin-top:300px;
+      font-family: cursive;
+      color: white;
+    }
+    .carousel-caption h2 {
+      font-size:3rem;
+      text-transform: uppercase;
+      padding-left:250px;
+      font-family: cursive;
+      margin-right:10px;
+      text-align: justify;
+    }
+}
+/* home */
+
+@media(max-width: 950px) { 
+    .header label {
+      display: initial;
+    }
+  
+    .header {
+      padding: 20px 10%;
+    }
+    
+  
+    .logo {
+      font-size:20px;
+      text-transform: uppercase;
+      color:darkblue;
+      font-weight:700;
+    }
+  
+    .header .navigation {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      /* background: var(--color-primary); */
+      background-color: lightblue;
+  
+      display: none;
+    }
+  
+    .header .navigation ul li {
+      width: 100%;
+      /* border-top: 1px solid var(--color-primary-light); */
+      border-top: 1px solid lightblue;
+    }
+  
+    .header .navigation ul li a {
+      padding: 8px 30px 8px 10%;
+    }
+  
+    .header .navigation ul li ul {
+      position: relative;
+      width: 100%;
+      left: 0;
+    }
+  
+    .header .navigation ul li ul li {
+      /* background: lightblue; */
+      background-color: lightblue;
+    }
+  
+    .header .navigation ul li ul li ul {
+      position: relative;
+      width: 100%;
+      left: 0;
+    }
+  
+    .header .navigation ul li ul li span {
+      padding: 4px 10px;
+      font-size: 10px;
+    }
+  
+  
+    #toggle:checked ~ .navigation {
+      display: block;
+    }
+    .header img{
+      width:60px;
+      height:30px;
+    }
+  
+    .aboutus h1{
+      text-align: center;
+      font-size:30px;
+      color:darkblue;
+      font-style: italic;
+      }
+  
+    .aboutus p{
+      text-align:justify;
+      font-size:18px;
+      color:black;
+      justify-content: center;
+      }
+       /* #carouselExampleCaptions {
+        min-height:60vh;
+        background: linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)), url('surgery2.webp') no-repeat center center/cover; 
+      }  */
+      .carousel-caption h {
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+      }
+      
+      .slideshow-container {
+        max-width: 1500px;
+        position: relative;
+      }
+      
+      .active {
+        background-color: #717171;
+      }
+      
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      .carousel-item {
+        height: 50vh;
+        min-height: 300px;
+        background-color: transparent !important;
+      
+      }
+      
+      .carousel-item .blur img {
+        filter: blur(1000px);
+      }
+      
+      .carousel-caption {
+        bottom: 500px;
+      }
+      
+      .carousel-caption h5 {
+        font-size: 4rem;
+        text-transform: uppercase;
+        text-align: right;
+        margin-top: 250px;
+        font-family: cursive;
+        margin-right:20px;
+      }
+      
+      .carousel-caption h4 {
+        font-size: 4rem;
+        text-transform: uppercase;
+        text-align: right;
+        font-family: cursive;
+        margin-right:20px;
+      }
+      
+      .carousel-caption h3 {
+        font-size: 3rem;
+        text-transform: uppercase;
+        text-align:center;
+        margin-top:300px;
+        font-family: cursive;
+        color: white;
+      }
+      .carousel-caption h2 {
+        font-size:3rem;
+        text-transform: uppercase;
+        padding-left:250px;
+        font-family: cursive;
+        margin-right:10px;
+        text-align: justify;
+      }
+      .spic {
+        margin-top:100px;
+        text-align: center;
+      }
+      
+      .trdpic{
+        margin-top:100px; 
+        font-size:2rem; 
+        text-align: center;
+      }
+      
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
